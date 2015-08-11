@@ -109,7 +109,7 @@
     }
     
     NSMutableString *integerStringCommaInserted = [[NSMutableString alloc] init];
-    int integerStringLength = [integerString length];
+    int integerStringLength = (int)[integerString length];
     int idx = 0;
     while(idx<integerStringLength)
     {
